@@ -2,6 +2,8 @@
 
 [Demo](https://vanyachyzh.github.io/match_game/)
 
+[Video](https://www.loom.com/share/a301a1219c3e46d7a53c6535d95364fb?sid=a75ade6d-0a01-476a-976d-f2a774fb1559)
+
 
 MatchMaster is an interactive game developed using React, CSS, HTML, JavaScript, and TypeScript. It provides an engaging experience where players take turns to strategically choose the number of matches to take in each move. Players have the ability to customize the game by selecting the step size of matches they can take and deciding who makes the first move, either a human player or an intelligent AI opponent.
 

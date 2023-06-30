@@ -16,6 +16,7 @@ export const openaiApi = async (message: string) => {
         },
       }
     );
+
     return response.data.choices[0].message.content;
   } catch (error) {
     console.error("Error:", error);
