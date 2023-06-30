@@ -1,0 +1,23 @@
+.player-info {
+    width: min-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+    &__icon {
+        width: min-content;
+        padding: 10px;
+        font-size: 80px;
+        border-radius: 15px;
+        border: 5px solid pink;
+    }
+
+    &__points {
+        font-weight: 900;
+        font-size: 80px;
+        color: pink;
+    }
+}
+
+

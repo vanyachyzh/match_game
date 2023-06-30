@@ -1,0 +1,26 @@
+.field {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    &__pile {
+        width: 1000px;
+        height: 500px;
+        border: 5px solid rgb(219, 85, 229);
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,17 @@
+.App {
+    display: flex;
+    justify-content: space-around;
+
+    &__sidebar {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+}

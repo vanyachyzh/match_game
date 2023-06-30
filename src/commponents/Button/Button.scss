@@ -1,0 +1,30 @@
+.button {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(62, 28, 231);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:disabled {
+        cursor: auto;
+    }
+
+    &--small {
+        font-size: 26px;
+        width: 50px;
+        height: 50px;
+    }
+
+    &--active {
+        background-color: aqua;
+    }
+
+    &--long {
+        padding: 5px;
+        width: max-content;
+        color: yellowgreen;
+    }
+}
