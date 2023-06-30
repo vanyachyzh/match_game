@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# MatchMaster
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Demo](https://vanyachyzh.github.io/match_game/)
 
-## Available Scripts
 
-In the project directory, you can run:
+MatchMaster is an interactive game developed using React, CSS, HTML, JavaScript, and TypeScript. It provides an engaging experience where players take turns to strategically choose the number of matches to take in each move. Players have the ability to customize the game by selecting the step size of matches they can take and deciding who makes the first move, either a human player or an intelligent AI opponent.
 
-### `npm start`
+## Features
+- Flexible Gameplay: Players can select the step size of matches they can take in each move, adding a layer of strategy and variation to the game.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- AI Opponent
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Player Customization: MatchMaster offers the freedom to choose who makes the first move, providing control over the game dynamics. Players can alternate between playing as the first or second player, adding a tactical element to the gameplay.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Select the desired step size of matches you can take per move by clicking on the options provided.
 
-### `npm run build`
+- Choose who makes the first move: human player or AI opponent.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Take turns with the opponent, selecting the number of matches to remove in each move.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- The game is over once all matches are taken. Whoever has the even amount of matches wins.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- React
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- SCSS
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- TypeScript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- classNames
